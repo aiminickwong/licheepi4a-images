@@ -17,4 +17,4 @@ resize2fs /dev/mmcblk0p3
 - ***Firefox, LibreOffice, Deepin Terminal*** *(Not included by default)*... You can install them by ***apt install pkg_name*** command.
 - You can change the dispaly language and set ***Chinese*** input by ***system settings***, default is **English**.
 - Deepin RISC-V repos: [mirror.iscas.ac.cn](https://mirror.iscas.ac.cn/deepin-riscv/)
-- **Download address**: *[Baidu Netdisk]*( https://pan.baidu.com/s/1exwIHl16jDHlfPYWWFK8dw?pwd=risc)
+- **Download address**: *[Baidu Netdisk]( https://pan.baidu.com/s/1exwIHl16jDHlfPYWWFK8dw?pwd=risc)*
