@@ -18,3 +18,5 @@ resize2fs /dev/mmcblk0p3
 - You can change the dispaly language and set ***Chinese*** input by ***system settings***, default is **English**.
 - Deepin RISC-V repos: [mirror.iscas.ac.cn](https://mirror.iscas.ac.cn/deepin-riscv/)
 - **Download address 下载地址**: *[Baidu Netdisk]( https://pan.baidu.com/s/1exwIHl16jDHlfPYWWFK8dw?pwd=risc)*
+
+**The 7-zip rootfs image when you have downloaded should be decompressed (下载后的 7-zip rootfs 镜像需要解压缩).**
