@@ -21,7 +21,7 @@ resize2fs /dev/mmcblk0p3
 
 **The 7-zip rootfs image when you have downloaded should be decompressed.**
 
-**(下载后的 7-zip rootfs 镜像需要解压缩).**
+**下载后的 7-zip rootfs 镜像需要解压缩.**
 
 - How to flash the ***DeepinOS*** image:
 ```
