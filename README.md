@@ -79,3 +79,19 @@ fastboot.exe flash uboot u-boot-with-spl-lpi4a-20230510.bin
 fastboot.exe flash boot boot-20230510-230240.ext4
 fastboot.exe flash root openkylin-0.9.5-thead1520-230521.ext4
 ```
+#### Issues
+- ***kylin-virtual-keyboard*** and ***ukui-sidebar*** used high cpu usage.
+
+remove them:
+```
+sudo rm -f /etc/xdg/autostart/kylin-virtual-keyboard.desktop
+sudo rm -f /etc/xdg/autostart/ukui-sidebar.desktop
+sudo reboot
+```
+For more less cpu usage, you can remove more autostart apps, for example:
+```
+sudo rm -f /etc/xdg/autostart/ukui-search* \
+/etc/xdg/autostart/ukui-tablet-desktop.desktop \
+/etc/xdg/autostart/ukui-volume-control-applet.desktop
+```
+
