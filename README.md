@@ -11,8 +11,8 @@
 - Default user: **root** and **deepin**, all user's passwords are the same as: **1**.
 - You shold resize rootfs with commands:
 ```
-parted -s /dev/mmcblk0 "resizepart 3 -0"
-resize2fs /dev/mmcblk0p3
+sudo parted -s /dev/mmcblk0 "resizepart 3 -0"
+sudo resize2fs /dev/mmcblk0p3
 ```
 - ***Firefox, LibreOffice, Deepin Terminal*** *(Not included by default)*... You can install them by ***apt install pkg_name*** command.
 - You can change the dispaly language and set ***Chinese*** input by ***system settings***, default is **English**.
