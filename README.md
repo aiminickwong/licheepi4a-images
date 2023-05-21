@@ -84,14 +84,15 @@ fastboot.exe flash root openkylin-0.9.5-thead1520-230521.ext4
 
 remove them:
 ```
-sudo rm -f /etc/xdg/autostart/kylin-virtual-keyboard.desktop
-sudo rm -f /etc/xdg/autostart/ukui-sidebar.desktop
+sudo rm -f /etc/xdg/autostart/kylin-virtual-keyboard.desktop \
+/etc/xdg/autostart/ukui-sidebar.desktop \
 sudo reboot
 ```
 For more less cpu usage, you can remove more autostart apps, for example:
 ```
 sudo rm -f /etc/xdg/autostart/ukui-search* \
 /etc/xdg/autostart/ukui-tablet-desktop.desktop \
-/etc/xdg/autostart/ukui-volume-control-applet.desktop
+/etc/xdg/autostart/ukui-volume-control-applet.desktop \
+sudo reboot
 ```
 
