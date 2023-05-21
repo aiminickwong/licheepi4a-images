@@ -20,3 +20,12 @@ resize2fs /dev/mmcblk0p3
 - **Download address 下载地址**: *[Baidu Netdisk]( https://pan.baidu.com/s/1exwIHl16jDHlfPYWWFK8dw?pwd=risc)*
 
 **The 7-zip rootfs image when you have downloaded should be decompressed (下载后的 7-zip rootfs 镜像需要解压缩).**
+
+- How to flash the ***DeepinOS*** image:
+```
+fastboot.exe flash ram u-boot-with-spl-lpi4a-20230510.bin
+fastboot.exe reboot
+fastboot.exe flash uboot u-boot-with-spl-lpi4a-20230510.bin
+fastboot.exe flash boot boot-20230510-230240.ext4
+fastboot.exe flash root rootfs.deepinv23-(08-Nov-2022)-230520-1956.ext4
+```
