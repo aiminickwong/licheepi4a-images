@@ -1,6 +1,6 @@
 # LicheePi 4A Images
 
-- **1.[Deepin V23](./#1deepinos-v23)**
+- **1.[DeepinOS V23](./#1deepinos-v23)**
 - **2.[openKylin v0.9.5](./#2openkylin-v095)**
 
 ----
